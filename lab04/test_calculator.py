@@ -12,7 +12,10 @@ class TestCalculator(unittest.TestCase):
     def test_multiply(self):
         calc = Calculator()
         self.assertEqual(calc.multiply(2, 3), 6)
-
+    
+    def test_divide(self):
+        calc = Calculator()
+        self.assertEqual(calc.divide(6, 3), 2)
 
 if __name__ == '__main__':
     unittest.main()
