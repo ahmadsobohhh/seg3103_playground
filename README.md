@@ -1,11 +1,16 @@
-# seg3103_playground
+ Run Junit:
+ 
+ 
+# Remove any class files from dist
 
-Instructions:
+rm -f ./dist/*.class
 
-Ensure Java, Python, Elixir downloaded and versions up to date.
+# Compile the application
 
-Repeat the commands in the screenshots
+javac -encoding UTF-8 --source-path src -d dist src/*.java
 
-<img width="756" alt="python_ss" src="https://github.com/ahmadsobohhh/seg3103_playground/assets/115435738/ca5a080c-739d-4868-ae0a-8663dc859c3a">
-<img width="1137" alt="java_ss" src="https://github.com/ahmadsobohhh/seg3103_playground/assets/115435738/3059cdb8-84b3-4677-a130-fbfad86ca7cc">
-<img width="1286" alt="elixir_ss" src="https://github.com/ahmadsobohhh/seg3103_playground/assets/115435738/a6c26eb3-9916-4d64-81fb-7f2e8ae650f5">
+# Compile the tests
+
+javac -encoding UTF-8 --source-path test -d dist -cp dist:lib/junit-platform-console-standalone-1.7.1.jar test/*.java
+
+java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path

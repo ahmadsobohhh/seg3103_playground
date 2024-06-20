@@ -7,14 +7,14 @@ TC4	Username	"q"	Err3: Size must be between 6 and 12\
 TC5	Username	"e3333"	Err3: Size must be between 6 and 12\
 TC6	Username	"2fn4t4"	Err1: Wrong UserName format\
 TC7	Username	"W23*e3"	Err1: Wrong UserName format\
-\
+
 TC8	FirstName	""	Valid\
 TC9	LastName	""	Valid\
-TC10	FirstName	"Ahmad"	Valid\
-TC11	LastName	"Ahmad"	Valid\
-TC12	FirstName	"Ahmad2"	Err4: Wrong FirstName format\
-TC13	LastName	"Ahmad2"	Err5: Wrong LastName format\
-\
+TC10	FirstName	"Aziza"	Valid\
+TC11	LastName	"Aziza"	Valid\
+TC12	FirstName	"Aziza3"	Err4: Wrong FirstName format\
+TC13	LastName	"Aziza3"	Err5: Wrong LastName format\
+
 TC14	Email	"test.email@example.com"	Valid\
 TC15	Email	"user_name@domain.co"	Valid\
 TC16	Email	"user+name@sub-domain.com"	Valid\
@@ -23,23 +23,22 @@ TC18	Email	"test@domain"	Err6: Wrong Email format\
 TC19	Email	"test@domain..com"	Err6: Wrong Email format\
 TC20	Email	"test@domain!com"	Err6: Wrong Email format\
 TC21	Email	""	Err7: An Email address is mandatory\
-\
+
 TC22	Age	18	Valid\
-TC23	Age	24	Valid\
+TC23	Age	25	Valid\
 TC24	Age	64	Valid\
 TC25	Age	17	Err9: must be greater than or equal to 18\
 TC26	Age	65	Err10: must be less than or equal to 64\
 TC27	Age	""	Err8: Age is mandatory\
-\
+
 TC28	PostalCode	"K1A0B1"	Valid\
 TC29	PostalCode	"B2C3D4"	Valid\
-TC30	PostalCode	"K1R 0B1"	Valid\
-TC31	PostalCode	"K2C0B"	Err11: Wrong Postal Code format\
-TC32	PostalCode	"K2B0B1A"	Err11: Wrong Postal Code format\
+TC30	PostalCode	"K1A 0B1"	Valid\
+TC31	PostalCode	"K1A0B"	Err11: Wrong Postal Code format\
+TC32	PostalCode	"K1A0B1A"	Err11: Wrong Postal Code format\
 TC33	PostalCode	"D1A0B1"	Err11: Wrong Postal Code format\
-TC34	PostalCode	"E1F0C1"	Err11: Wrong Postal Code format\
-TC35	PostalCode	"E2A0C!"	Err11: Wrong Postal Code format\
-
+TC34	PostalCode	"K1F0B1"	Err11: Wrong Postal Code format\
+TC35	PostalCode	"K1A0B!"	Err11: Wrong Postal Code format\
 
 
 Test Table
