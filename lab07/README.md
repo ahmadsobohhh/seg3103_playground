@@ -1,27 +1,29 @@
 Bugs list before
-/var/folders/kj/c9g4hht54kv21dzdvdf2pq_h0000gn/T/TemporaryItems/NSIRD_screencaptureui_TUwRUk/Screenshot 2024-07-12 at 12.59.55 AM.png
+
+<img width="372" alt="Screenshot 2024-07-12 at 1 04 27 AM" src="https://github.com/user-attachments/assets/05ec8162-7eb7-4845-bbfc-09f9f45622c9">
+
 
 # Bug 1:
 Screenshot of Bug
 
-/var/folders/kj/c9g4hht54kv21dzdvdf2pq_h0000gn/T/TemporaryItems/NSIRD_screencaptureui_ZoJepQ/Screenshot 2024-07-12 at 1.00.27 AM.png
+<img width="756" alt="Screenshot 2024-07-12 at 1 04 42 AM" src="https://github.com/user-attachments/assets/58a92498-4541-4875-9b37-c7018cf01ab5">
 
 Screenshot of fix
 
-/var/folders/kj/c9g4hht54kv21dzdvdf2pq_h0000gn/T/TemporaryItems/NSIRD_screencaptureui_gnpXuu/Screenshot 2024-07-12 at 1.00.56 AM.png
+<img width="387" alt="Screenshot 2024-07-12 at 1 04 56 AM" src="https://github.com/user-attachments/assets/9b25227f-7a11-4279-bde7-77124dccdb77">
 
 # Bug 2:
 Screenshot of bug
 
-/var/folders/kj/c9g4hht54kv21dzdvdf2pq_h0000gn/T/TemporaryItems/NSIRD_screencaptureui_R9Odpf/Screenshot 2024-07-12 at 1.01.42 AM.png
+<img width="351" alt="Screenshot 2024-07-12 at 1 05 11 AM" src="https://github.com/user-attachments/assets/aae3e2f6-0ec1-4abc-bdc5-4e63c64615a6">
 
 Fix:
-the setVisible() method should be invoked in Swing thread.
+setVisible() method should be invoked in Swing thread
 
 # Bug 3:
 Screenshot of bug
 
-/var/folders/kj/c9g4hht54kv21dzdvdf2pq_h0000gn/T/TemporaryItems/NSIRD_screencaptureui_gjV5Ra/Screenshot 2024-07-12 at 1.01.55 AM.png
+<img width="556" alt="Screenshot 2024-07-12 at 1 05 35 AM" src="https://github.com/user-attachments/assets/c18436c2-ca05-4f8e-9c96-9651ccc7b390">
 
 Fix:
 To fix this bug make the WindowAdapeter class static
@@ -29,68 +31,67 @@ To fix this bug make the WindowAdapeter class static
 # Bug 4:
 Screenshot of bug
 
-/var/folders/kj/c9g4hht54kv21dzdvdf2pq_h0000gn/T/TemporaryItems/NSIRD_screencaptureui_W42pWE/Screenshot 2024-07-12 at 1.02.07 AM.png
+<img width="693" alt="Screenshot 2024-07-12 at 1 05 52 AM" src="https://github.com/user-attachments/assets/43e2fef1-5501-4370-beeb-3764eece467e">
+
 
 Fix:
 
-/var/folders/kj/c9g4hht54kv21dzdvdf2pq_h0000gn/T/TemporaryItems/NSIRD_screencaptureui_CgFaff/Screenshot 2024-07-12 at 1.02.19 AM.png
+<img width="473" alt="Screenshot 2024-07-12 at 1 06 03 AM" src="https://github.com/user-attachments/assets/06d0aa38-6564-4a2b-a094-07d418b52507">
 
 # Bug 5:
 Screenshot of bug
+<img width="632" alt="Screenshot 2024-07-12 at 1 06 14 AM" src="https://github.com/user-attachments/assets/5446534b-ba76-44ee-81ad-f1c7891b38d7">
 
-/var/folders/kj/c9g4hht54kv21dzdvdf2pq_h0000gn/T/TemporaryItems/NSIRD_screencaptureui_B8tPJC/Screenshot 2024-07-12 at 1.02.32 AM.png
 
 Fix:
-
-![bug5fix](https://user-images.githubusercontent.com/55165979/126680890-c676f63c-0ba6-41be-9c39-301ee78a8cfd.png)
+<img width="524" alt="Screenshot 2024-07-12 at 1 06 24 AM" src="https://github.com/user-attachments/assets/981399ca-b066-4a9b-86bd-e76a043c4280">
 
 # Bugs 6 - 11:
 Screenshot of bug
 
-![bug6-11](https://user-images.githubusercontent.com/55165979/126680914-2645e812-a5b4-43ea-b036-a9cb149d8f2b.png)
+<img width="708" alt="Screenshot 2024-07-12 at 1 06 38 AM" src="https://github.com/user-attachments/assets/abcd7f7f-beb9-4fb9-b03f-efbe68d36f80">
 
 Fix:
 
-![Screen Shot 2021-07-22 at 1 25 00 PM](https://user-images.githubusercontent.com/55165979/126682558-731a5424-9846-4d8c-a34b-085ddc77e04a.png)
+<img width="341" alt="Screenshot 2024-07-12 at 1 06 50 AM" src="https://github.com/user-attachments/assets/18f6e207-d4ce-4d49-9ccb-be07c96409fe">
 
 
 # Bug 12:
 Screenshot of bug
+<img width="495" alt="Screenshot 2024-07-12 at 1 07 04 AM" src="https://github.com/user-attachments/assets/25ca9883-21d5-480b-bbd5-7b6b0e0b0192">
 
-![bug12](https://user-images.githubusercontent.com/55165979/126680978-589fff3f-4d7f-4bd8-874c-45fdbf825e20.png)
 
 Fix:
-
-![bug12ffix](https://user-images.githubusercontent.com/55165979/126681013-c62ed195-91bf-4aac-a15d-03c9761859da.png)
+<img width="493" alt="Screenshot 2024-07-12 at 1 07 11 AM" src="https://github.com/user-attachments/assets/05d93635-0177-4d41-93a0-46c7ffff0ad4">
 
 # Bug 13:
 Screenshot of bug
-
-![bug13](https://user-images.githubusercontent.com/55165979/126681025-2d59678f-1241-4291-83a8-3da3f21dcd08.png)
+<img width="565" alt="Screenshot 2024-07-12 at 1 07 22 AM" src="https://github.com/user-attachments/assets/70e5d2b5-49f0-4348-b4fb-5e5c9ab8af0c">
 
 Fix:
-
-![bug13fix](https://user-images.githubusercontent.com/55165979/126681035-c4607c3d-a801-4abf-a4d7-5be8a4d0f2a0.png)
+<img width="416" alt="Screenshot 2024-07-12 at 1 07 49 AM" src="https://github.com/user-attachments/assets/d05f094e-4d11-418f-a246-614a7eec0557">
 
 # Bugs 14 - 16:
 Screenshot of bug
-
-![bug14-16](https://user-images.githubusercontent.com/55165979/126681131-0633789b-4bee-4b4d-bf55-c35708b27dbe.png)
+<img width="401" alt="Screenshot 2024-07-12 at 1 08 04 AM" src="https://github.com/user-attachments/assets/35ed7653-f21b-4bd5-ac32-5a5750274d22">
 
 Fix:
 
-![bug14-16fix](https://user-images.githubusercontent.com/55165979/126681133-6906e271-53ab-4c60-b1c1-e6201c828f9d.png)
+<img width="501" alt="Screenshot 2024-07-12 at 1 08 16 AM" src="https://github.com/user-attachments/assets/43669c2b-f638-4e3f-a46e-90a9ecd6df33">
+
 
 # Bug 17:
 Screenshot of bug
 
-![bug17](https://user-images.githubusercontent.com/55165979/126681142-1a06d27c-007a-4f2a-a35c-f39aa69ca903.png)
+<img width="593" alt="Screenshot 2024-07-12 at 1 08 27 AM" src="https://github.com/user-attachments/assets/e0902696-6b90-4d35-bb05-e1a1e9c37907">
 
 Fix:
+<img width="486" alt="Screenshot 2024-07-12 at 1 08 43 AM" src="https://github.com/user-attachments/assets/71b673f3-9095-43fa-8405-f04a9cfc03c9">
 
-![bug7fix](https://user-images.githubusercontent.com/55165979/126681157-809c6246-be53-421c-b43d-eca2a250fa36.png)
+
+
 
 # Bugs list after
 
-<img width="403" alt="Screen Shot 2021-07-22 at 1 30 16 PM" src="https://user-images.githubusercontent.com/55165979/126683004-f3141ee5-19a4-46ba-b72b-5f382e54e5ef.png">
+<img width="386" alt="Screenshot 2024-07-12 at 1 08 54 AM" src="https://github.com/user-attachments/assets/78bab28c-fb30-46ce-9190-3b8b5b0e7517">
 
